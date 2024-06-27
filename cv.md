@@ -60,3 +60,14 @@ my [GitHub](https://github.com/Bogdan252525).
 
 * Mar 2024 - Present: Frontend Developer for the Team Challenge project [Happy Tails](https://happytails.team).
 ---
+### Education
+* Vinnitsa College of Culture and Arts, Vinnitsa, Ukraine (2002 - 2006)
+* Vinnitsa State Pedagogical University, Vinnitsa, Ukraine (2006 - 2008)
+* Various Courses in Frontend Development (2022 - 2024)
+---
+### Certificates
+* [Responsive Web Design - freeCodeCamp](https://www.freecodecamp.org/certification/fcc26f6e320-d4e0-478d-bffa-c96b040cec9f/responsive-web-design)
+* [Frontend Development Certificate - EPAM](https://certificates.epam.com/certificates/359a2281-e399-4c06-9655-db4c2268581e)
+---
+### English language
+Pre-Intermediate. I have some experience speaking English on cruise ships.

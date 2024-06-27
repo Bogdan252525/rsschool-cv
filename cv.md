@@ -4,9 +4,9 @@
 ---
 ## Contacts:
 *tel: 380955067089*
-===
+******
 *email: bogdan2516@gmail.com*
-===
+******
 *discord: Bohdan Rud (@Bogdan252525)*
 ---
 ## Summary

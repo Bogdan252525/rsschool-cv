@@ -78,3 +78,31 @@ a {
 .contact-item span:hover {
 	color: #999;
 }
+
+/* Summary section */
+
+.summary-section, .skills-section, .code-section {
+	margin: 40px 0 0;
+	padding-bottom: 30px;
+	border-bottom: 4px dashed #777;
+}
+
+.summary-title, .skills-title, .code-title {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.summary-text, .code-description {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-indent: 3rem;
+}
+
+.skills-list {
+	font-size: 1.2rem;
+	list-style-type: circle;
+}
+
+.skills-list li {
+	margin-bottom: 5px;
+}

@@ -39,13 +39,13 @@
             <nav>
               <ul class="nav">
                 <li class="nav-link">
-                  <a href="Summary">Summary</a>
+                  <a href="#summary-section">Summary</a>
                 </li>
                 <li class="nav-link">
-                  <a href="Skills">Skills</a>
+                  <a href="#skills-section">Skills</a>
                 </li>
                 <li class="nav-link">
-                  <a href="Code examples">Code examples</a>
+                  <a href="#code-section">Code examples</a>
                 </li>
                 <li class="nav-link">
                   <a href="Experience">Experience</a>
@@ -112,10 +112,69 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="summary-section" id="summary-section">
+				<div class="container">
+					<h2 class="summary-title">Summary</h2>
+					<p class="summary-text">
+						I am a Frontend Developer with a background in piano performance. I worked on cruise ships before transitioning to the tech industry, a field that has always fascinated me. I have completed several courses in frontend development and am currently practicing and seeking a position as a Frontend Developer. I am open to relocation and remote work opportunities.
+					</p>
+				</div>
 			</section>
-      <section></section>
-      <section></section>
+      <section class="skills-section" id="skills-section">
+				<div class="container">
+					<h2 class="skills-title">Skills</h2>
+					<ul class="skills-list">
+						<li>JavaScript</li>
+						<li>React.js</li>
+						<li>Redux toolkit</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Tailwind</li>
+						<li>GitHub</li>
+						<li>npm</li>
+						<li>VS Code</li>
+						<li>Logical thinking</li>
+						<li>Creativity</li>
+						<li>Communication skills</li>
+						<li>Self-discipline</li>
+						<li>Self-control</li>
+					</ul>
+				</div>
+			</section>
+      <section class="code-section" id="code-section">
+				<div class="container">
+					<h2 class="code-title">Code examples</h2>
+					<p class="code-description">
+						You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
+					</p>
+					<code>
+						<pre>
+[]                                -->  "no one likes this"
+["Peter"]                         -->  "Peter likes this"
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
+["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
+						</pre>
+					</code>
+					<p class="code-description">
+						Note: For 4 or more names, the number in 'and 2 others' simply increases.
+					</p>
+					<code>
+						<pre>
+function likes(names) {
+	names = names || [];
+	switch(names.length){
+		case 0: return 'no one likes this'; break;
+		case 1: return names[0] + ' likes break;
+		case 2: return names[0] + ' and ' [1] + ' like this'; break;
+		case 3: return names[0] + ', ' + na+ ' and ' + names[2] + ' like break;
+		default: return names[0] + ', ' [1] + ' and ' + (names.length - others like this';
+	}
+}
+						</pre>
+					</code>
+				</div>
+			</section>
       <section></section>
       <section></section>
       <section></section>

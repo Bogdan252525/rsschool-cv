@@ -48,13 +48,13 @@
                   <a href="#code-section">Code examples</a>
                 </li>
                 <li class="nav-link">
-                  <a href="Experience">Experience</a>
+                  <a href="#experience-section">Experience</a>
                 </li>
                 <li class="nav-link">
-                  <a href="Education">Education</a>
+                  <a href="#education-section">Education</a>
                 </li>
                 <li class="nav-link">
-                  <a href="Certificates">Certificates</a>
+                  <a href="#certificates-section">Certificates</a>
                 </li>
                 <li class="nav-link">
                   <a href="English language">English language</a>
@@ -112,73 +112,198 @@
       </div>
     </header>
     <main>
-      <section class="summary-section" id="summary-section">
-				<div class="container">
-					<h2 class="summary-title">Summary</h2>
-					<p class="summary-text">
-						I am a Frontend Developer with a background in piano performance. I worked on cruise ships before transitioning to the tech industry, a field that has always fascinated me. I have completed several courses in frontend development and am currently practicing and seeking a position as a Frontend Developer. I am open to relocation and remote work opportunities.
-					</p>
-				</div>
-			</section>
-      <section class="skills-section" id="skills-section">
-				<div class="container">
-					<h2 class="skills-title">Skills</h2>
-					<ul class="skills-list">
-						<li>JavaScript</li>
-						<li>React.js</li>
-						<li>Redux toolkit</li>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Tailwind</li>
-						<li>GitHub</li>
-						<li>npm</li>
-						<li>VS Code</li>
-						<li>Logical thinking</li>
-						<li>Creativity</li>
-						<li>Communication skills</li>
-						<li>Self-discipline</li>
-						<li>Self-control</li>
-					</ul>
-				</div>
-			</section>
-      <section class="code-section" id="code-section">
-				<div class="container">
-					<h2 class="code-title">Code examples</h2>
-					<p class="code-description">
-						You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
-					</p>
-					<code>
-						<pre>
+      <section
+        class="summary-section"
+        id="summary-section"
+      >
+        <div class="container">
+          <h2 class="summary-title">Summary</h2>
+          <p class="summary-text">
+            I am a Frontend Developer with a background in piano performance. I
+            worked on cruise ships before transitioning to the tech industry, a
+            field that has always fascinated me. I have completed several
+            courses in frontend development and am currently practicing and
+            seeking a position as a Frontend Developer. I am open to relocation
+            and remote work opportunities.
+          </p>
+        </div>
+      </section>
+      <section
+        class="skills-section"
+        id="skills-section"
+      >
+        <div class="container">
+          <h2 class="skills-title">Skills</h2>
+          <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Redux toolkit</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Tailwind</li>
+            <li>GitHub</li>
+            <li>npm</li>
+            <li>VS Code</li>
+            <li>Logical thinking</li>
+            <li>Creativity</li>
+            <li>Communication skills</li>
+            <li>Self-discipline</li>
+            <li>Self-control</li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="code-section"
+        id="code-section"
+      >
+        <div class="container">
+          <h2 class="code-title">Code examples</h2>
+          <p class="code-description">
+            You probably know the "like" system from Facebook and other pages.
+            People can "like" blog posts, pictures or other items. We want to
+            create the text that should be displayed next to such an
+            item.Implement the function which takes an array containing the
+            names of people that like an item. It must return the display text
+            as shown in the examples:
+          </p>
+					<div class="code-example">
+						<code>
+							<pre>
 []                                -->  "no one likes this"
 ["Peter"]                         -->  "Peter likes this"
-["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
-["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
-["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
-						</pre>
-					</code>
-					<p class="code-description">
-						Note: For 4 or more names, the number in 'and 2 others' simply increases.
-					</p>
-					<code>
-						<pre>
+["Jacob", "Alex"]                 -->  "Jacob and Alexlike this"
+["Max", "John", "Mark"]           -->  "Max, John andMark like this"
+["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2others like this"
+							</pre
+							>
+						</code>
+					</div>
+
+          <p class="code-description">
+            Note: For 4 or more names, the number in 'and 2 others' simply
+            increases.
+          </p>
+					<div class="code-example">
+						<code>
+							<pre>
 function likes(names) {
 	names = names || [];
 	switch(names.length){
 		case 0: return 'no one likes this'; break;
-		case 1: return names[0] + ' likes break;
-		case 2: return names[0] + ' and ' [1] + ' like this'; break;
-		case 3: return names[0] + ', ' + na+ ' and ' + names[2] + ' like break;
-		default: return names[0] + ', ' [1] + ' and ' + (names.length - others like this';
+		case 1: return names[0] + ' likes this'; break;
+		case 2: return names[0] + ' and ' + names[1] + ' like this';break;
+		case 3: return names[0] + ', ' + names[1] + ' and ' + names[2] + ' like this' break;
+		default: return names[0] + ', ' names[1] + ' and ' + (names.length - 2) + ' others like this';
 	}
 }
-						</pre>
-					</code>
-				</div>
+							</pre>
+						</code>
+					</div>
+
+        </div>
+      </section>
+      <section
+        class="experience-section"
+        id="experience-section"
+      >
+        <div class="container">
+          <h2 class="experience-title">Experience</h2>
+          <ul class="experience-list">
+            <li>
+              Dec 2022 - Apr 2024: Worked on various small IT projects,
+              available on my
+              <a
+                href="https://github.com/Bogdan252525"
+                target="_blank"
+                >GitHub</a
+              >:
+              <ul>
+                <li>
+                  <a
+                    href="https://bogdan252525.github.io/windows-site"
+                    target="_blank"
+                    >Windows site</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://bogdan252525.github.io/my-site"
+                    target="_blank"
+                    >My site</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://bogdan252525.github.io/todo-app"
+                    target="_blank"
+                    >Todo App</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://bogdan252525.github.io/site-cart"
+                    target="_blank"
+                    >Site cart</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              Mar 2024 - Present: Frontend Developer for the Team Challenge
+              project
+              <a
+                href="https://happytails.team"
+                target="_blank"
+                >Happy Tails</a
+              >.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="education-section"
+        id="education-section"
+      >
+        <div class="container">
+          <h2 class="education-title">Education</h2>
+          <ul class="education-list">
+            <li>
+              Vinnitsa College of Culture and Arts, Vinnitsa, Ukraine (2002 -
+              2006)
+            </li>
+            <li>
+              Vinnitsa State Pedagogical University, Vinnitsa, Ukraine (2006 -
+              2008)
+            </li>
+            <li>Various Courses in Frontend Development (2022 - 2024)</li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="certificates-section"
+        id="certificates-section"
+      >
+        <div class="container">
+          <h2 class="certificates-title">Certificates</h2>
+          <ul class="certificates-list">
+            <li>
+              <a
+                href="https://www.freecodecamp.org/certification/fcc26f6e320-d4e0-478d-bffa-c96b040cec9f/responsive-web-design"
+                >Responsive Web Design - freeCodeCamp</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://certificates.epam.com/certificates/359a2281-e399-4c06-9655-db4c2268581e"
+                >Frontend Development Certificate - EPAM</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+
 			</section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
     </main>
     <footer></footer>
   </body>

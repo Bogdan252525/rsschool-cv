@@ -79,13 +79,13 @@ a {
 
 /* Section */
 
-.summary-section, .skills-section, .code-section, .experience-section, .education-section, .certificates-section {
+.summary-section, .skills-section, .code-section, .experience-section, .education-section, .certificates-section, .language-section {
 	margin: 40px 0 0;
 	padding-bottom: 30px;
 	border-bottom: 4px dashed #777;
 }
 
-.summary-title, .skills-title, .code-title, .experience-title, .education-title, .certificates-title {
+.summary-title, .skills-title, .code-title, .experience-title, .education-title, .certificates-title, .language-title {
 	text-align: center;
 	font-size: 2rem;
 }
@@ -109,7 +109,7 @@ a {
 	margin-bottom: 5px;
 }
 
-.experience-list, .education-list, .certificates-list {
+.experience-list, .education-list, .certificates-list, .language-text {
 	font-size: 1.2rem;
 	line-height: 1.5;
 }

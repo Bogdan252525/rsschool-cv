@@ -166,26 +166,26 @@
             names of people that like an item. It must return the display text
             as shown in the examples:
           </p>
-					<div class="code-example">
-						<code>
-							<pre>
+          <div class="code-example">
+            <code>
+              <pre>
 []                                -->  "no one likes this"
 ["Peter"]                         -->  "Peter likes this"
-["Jacob", "Alex"]                 -->  "Jacob and Alexlike this"
+["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 ["Max", "John", "Mark"]           -->  "Max, John andMark like this"
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2others like this"
 							</pre
-							>
-						</code>
-					</div>
+              >
+            </code>
+          </div>
 
           <p class="code-description">
             Note: For 4 or more names, the number in 'and 2 others' simply
             increases.
           </p>
-					<div class="code-example">
-						<code>
-							<pre>
+          <div class="code-example">
+            <code>
+              <pre>
 function likes(names) {
 	names = names || [];
 	switch(names.length){
@@ -196,10 +196,10 @@ function likes(names) {
 		default: return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
 	}
 }
-							</pre>
-						</code>
-					</div>
-
+							</pre
+              >
+            </code>
+          </div>
         </div>
       </section>
       <section
@@ -289,27 +289,58 @@ function likes(names) {
             <li>
               <a
                 href="https://www.freecodecamp.org/certification/fcc26f6e320-d4e0-478d-bffa-c96b040cec9f/responsive-web-design"
+                target="_blank"
                 >Responsive Web Design - freeCodeCamp</a
               >
             </li>
             <li>
               <a
                 href="https://certificates.epam.com/certificates/359a2281-e399-4c06-9655-db4c2268581e"
+                target="_blank"
                 >Frontend Development Certificate - EPAM</a
               >
             </li>
           </ul>
         </div>
       </section>
-      <section class="language-section" id="language-section">
-				<div class="container">
-					<h2 class="language-title">English language</h2>
-					<p class="language-text">Pre-Intermediate. I have some experience speaking English on cruise ships.</p>
-				</div>
-			</section>
+      <section
+        class="language-section"
+        id="language-section"
+      >
+        <div class="container">
+          <h2 class="language-title">English language</h2>
+          <p class="language-text">
+            Pre-Intermediate. I have some experience speaking English on cruise
+            ships.
+          </p>
+        </div>
+      </section>
     </main>
     <footer>
-			
-		</footer>
+      <div class="container">
+        <div class="footer-inner">
+          <a
+            href="https://github.com/Bogdan252525"
+            target="_blank"
+          >
+            <img
+              src="https://i.ibb.co/n3XN2Nf/1.png"
+              alt="github picture"
+            />
+          </a>
+          <a
+            href="https://rs.school/courses/javascript-preschool-ru"
+            target="_blank"
+          >
+            <img
+              class="school-logo"
+              src="./images/rs_school_js.svg"
+              alt="rs school logo"
+            />
+          </a>
+          <p class="year">2024</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

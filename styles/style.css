@@ -1,6 +1,11 @@
+/* General */
+
+* {
+	box-sizing: border-box;
+}
 
 body {
-	font-family: Open Sans;
+	font-family: Open Sans, sans-serif;
 }
 
 a {
@@ -125,6 +130,8 @@ a {
 .experience-list a:hover, .certificates-list a:hover {
 	color: #99f;
 }
+
+/* Footer */
 
 .footer-inner {
 	display: flex;

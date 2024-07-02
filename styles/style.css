@@ -1,0 +1,149 @@
+/* General */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Open Sans, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black
+}
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+	border-bottom: 4px dashed #777;
+	padding-bottom: 30px;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.main-title {
+	font-size: 3rem;
+}
+
+.my-profession {
+	font-size: 2rem;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+	margin-bottom: 8px;
+	list-style-type: none;
+}
+
+.nav-link a:hover {
+	color: #999;
+}
+
+.authors-photo {
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px black;
+}
+
+.contact-block {
+	max-width: 318px;
+	width: 100%;
+	list-style-type: none;
+}
+
+.contact-block li {
+	margin-bottom: 20px;
+	margin-left: 114px;
+}
+
+.contact-item {
+	display: flex;
+	align-items: center;
+}
+
+.contact-item span {
+	font-size: 1.5rem;
+	margin-left: 10px;
+}
+
+.contact-item span:hover {
+	color: #999;
+}
+
+/* Section */
+
+.summary-section, .skills-section, .code-section, .experience-section, .education-section, .certificates-section, .language-section {
+	margin: 40px 0 0;
+	padding-bottom: 30px;
+	border-bottom: 4px dashed #777;
+}
+
+.summary-title, .skills-title, .code-title, .experience-title, .education-title, .certificates-title, .language-title {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.summary-text, .code-description {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-indent: 3rem;
+}
+
+.code-example {
+	background-color: #eee;
+	padding: 10px;
+}
+
+.skills-list {
+	font-size: 1.2rem;
+}
+
+.skills-list li {
+	margin-bottom: 5px;
+}
+
+.experience-list, .education-list, .certificates-list, .language-text {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.experience-list > li {
+	margin-bottom: 20px;
+}
+
+.experience-list a, .certificates-list a {
+	color: #00f;
+}
+
+.experience-list a:hover, .certificates-list a:hover {
+	color: #99f;
+}
+
+/* Footer */
+
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0 20px;
+}
+
+.school-logo {
+	width: 150px;
+}
+
+.year {
+	font-size: 1.5rem;
+}
